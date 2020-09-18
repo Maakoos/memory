@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Memory</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main class="grid" data-wrapper></main>
+    <div class="winMessage" data-winMessage>
+      <h1>Wygrałeś</h1>
+      <button class="playAgainBtn" data-playAgainBtn>Zagraj jeszcze raz</button>
+    </div>
+    <script src="index.js"></script>
+    <script>
+      const game = new Memory();
+      game.initializeGame();
+    </script>
+  </body>
+</html>
